@@ -369,7 +369,7 @@ class TikuAdapter(Tiku):
                 return None
             sep = "\n"
             return sep.join(res_json['answer']['allAnswer'][0]).strip()
-        # else:
+        # elswwwe:
         #   logger.error(f'{self.name}查询失败:\n{res.text}')
         return None
 
