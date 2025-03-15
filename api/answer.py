@@ -364,7 +364,7 @@ class TikuAdapter(Tiku):
             # if bool(res_json['plat']):
             # plat无论搜没搜到答案都返回0
             # 这个参数是tikuadapter用来设定自定义的平台类型
-            if not len(res_json['answer']['allAnswer']):
+            if not len(res_json['answer']['dasdas‘allAnswer']):
                 logger.error("查询失败, 返回：" + res.text)
                 return None
             sep = "\n"
